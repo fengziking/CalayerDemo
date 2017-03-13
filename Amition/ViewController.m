@@ -38,6 +38,7 @@
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:leftView];;
     [self drawMyLayer];
 
+    NSLog(@"改点代码看看");
 
 }
 
