@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		663534FB1E6A98EE00B537D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 663534FA1E6A98EE00B537D5 /* main.m */; };
+		663534FE1E6A98EE00B537D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 663534FD1E6A98EE00B537D5 /* AppDelegate.m */; };
+		663535011E6A98EE00B537D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663535001E6A98EE00B537D5 /* ViewController.m */; };
+		663535041E6A98EE00B537D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663535021E6A98EE00B537D5 /* Main.storyboard */; };
+		663535061E6A98EE00B537D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 663535051E6A98EE00B537D5 /* Assets.xcassets */; };
+		663535091E6A98EE00B537D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663535071E6A98EE00B537D5 /* LaunchScreen.storyboard */; };
+		663535141E6A98EE00B537D5 /* AmitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 663535131E6A98EE00B537D5 /* AmitionTests.m */; };
+		6635351F1E6A98EE00B537D5 /* AmitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6635351E1E6A98EE00B537D5 /* AmitionUITests.m */; };
+		6635352E1E6A995100B537D5 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6635352D1E6A995100B537D5 /* BaseViewController.m */; };
+		663535311E6A9AC100B537D5 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 663535301E6A9AC100B537D5 /* ViewController1.m */; };
+		663535331E6A9C7500B537D5 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 663535321E6A9C7500B537D5 /* photo.png */; };
+		663535361E6A9CE600B537D5 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 663535351E6A9CE600B537D5 /* ViewController2.m */; };
+		663535391E6AA49400B537D5 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 663535381E6AA49400B537D5 /* ViewController3.m */; };
+		6635353C1E6AB1C700B537D5 /* ViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 6635353B1E6AB1C700B537D5 /* ViewController4.m */; };
+		6635353F1E6AB2B700B537D5 /* ViewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = 6635353E1E6AB2B700B537D5 /* ViewController5.m */; };
+		663535421E6AB3D800B537D5 /* ViewController6.m in Sources */ = {isa = PBXBuildFile; fileRef = 663535411E6AB3D800B537D5 /* ViewController6.m */; };
+		663535451E6AB4BB00B537D5 /* ViewController7.m in Sources */ = {isa = PBXBuildFile; fileRef = 663535441E6AB4BB00B537D5 /* ViewController7.m */; };
+		663535481E6AB55700B537D5 /* ViewController8.m in Sources */ = {isa = PBXBuildFile; fileRef = 663535471E6AB55700B537D5 /* ViewController8.m */; };
+		6635354B1E6AB67C00B537D5 /* ViewController9.m in Sources */ = {isa = PBXBuildFile; fileRef = 6635354A1E6AB67C00B537D5 /* ViewController9.m */; };
+		663535511E6AB89200B537D5 /* ViewController11.m in Sources */ = {isa = PBXBuildFile; fileRef = 663535501E6AB89200B537D5 /* ViewController11.m */; };
+		663535541E6AB8E400B537D5 /* ViewController10.m in Sources */ = {isa = PBXBuildFile; fileRef = 663535531E6AB8E400B537D5 /* ViewController10.m */; };
+		6635355A1E6AB9D400B537D5 /* ViewController12.m in Sources */ = {isa = PBXBuildFile; fileRef = 663535591E6AB9D400B537D5 /* ViewController12.m */; };
+		6635355D1E6ABC0B00B537D5 /* ViewController13.m in Sources */ = {isa = PBXBuildFile; fileRef = 6635355C1E6ABC0B00B537D5 /* ViewController13.m */; };
+		663535601E6ABCF000B537D5 /* ViewController14.m in Sources */ = {isa = PBXBuildFile; fileRef = 6635355F1E6ABCF000B537D5 /* ViewController14.m */; };
+		663535631E6ABD6C00B537D5 /* ViewController15.m in Sources */ = {isa = PBXBuildFile; fileRef = 663535621E6ABD6C00B537D5 /* ViewController15.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		663535101E6A98EE00B537D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 663534EE1E6A98EE00B537D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 663534F51E6A98EE00B537D5;
+			remoteInfo = Amition;
+		};
+		6635351B1E6A98EE00B537D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 663534EE1E6A98EE00B537D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 663534F51E6A98EE00B537D5;
+			remoteInfo = Amition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		663534F61E6A98EE00B537D5 /* Amition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		663534FA1E6A98EE00B537D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		663534FC1E6A98EE00B537D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		663534FD1E6A98EE00B537D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		663534FF1E6A98EE00B537D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		663535001E6A98EE00B537D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		663535031E6A98EE00B537D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		663535051E6A98EE00B537D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		663535081E6A98EE00B537D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6635350A1E6A98EE00B537D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6635350F1E6A98EE00B537D5 /* AmitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		663535131E6A98EE00B537D5 /* AmitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmitionTests.m; sourceTree = "<group>"; };
+		663535151E6A98EE00B537D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6635351A1E6A98EE00B537D5 /* AmitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6635351E1E6A98EE00B537D5 /* AmitionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmitionUITests.m; sourceTree = "<group>"; };
+		663535201E6A98EE00B537D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6635352C1E6A995100B537D5 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		6635352D1E6A995100B537D5 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		6635352F1E6A9AC100B537D5 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		663535301E6A9AC100B537D5 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		663535321E6A9C7500B537D5 /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
+		663535341E6A9CE600B537D5 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		663535351E6A9CE600B537D5 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		663535371E6AA49400B537D5 /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		663535381E6AA49400B537D5 /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
+		6635353A1E6AB1C700B537D5 /* ViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController4.h; sourceTree = "<group>"; };
+		6635353B1E6AB1C700B537D5 /* ViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController4.m; sourceTree = "<group>"; };
+		6635353D1E6AB2B700B537D5 /* ViewController5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController5.h; sourceTree = "<group>"; };
+		6635353E1E6AB2B700B537D5 /* ViewController5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController5.m; sourceTree = "<group>"; };
+		663535401E6AB3D800B537D5 /* ViewController6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController6.h; sourceTree = "<group>"; };
+		663535411E6AB3D800B537D5 /* ViewController6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController6.m; sourceTree = "<group>"; };
+		663535431E6AB4BB00B537D5 /* ViewController7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController7.h; sourceTree = "<group>"; };
+		663535441E6AB4BB00B537D5 /* ViewController7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController7.m; sourceTree = "<group>"; };
+		663535461E6AB55700B537D5 /* ViewController8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController8.h; sourceTree = "<group>"; };
+		663535471E6AB55700B537D5 /* ViewController8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController8.m; sourceTree = "<group>"; };
+		663535491E6AB67C00B537D5 /* ViewController9.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController9.h; sourceTree = "<group>"; };
+		6635354A1E6AB67C00B537D5 /* ViewController9.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController9.m; sourceTree = "<group>"; };
+		6635354F1E6AB89200B537D5 /* ViewController11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController11.h; sourceTree = "<group>"; };
+		663535501E6AB89200B537D5 /* ViewController11.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController11.m; sourceTree = "<group>"; };
+		663535521E6AB8E400B537D5 /* ViewController10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController10.h; sourceTree = "<group>"; };
+		663535531E6AB8E400B537D5 /* ViewController10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController10.m; sourceTree = "<group>"; };
+		663535581E6AB9D400B537D5 /* ViewController12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController12.h; sourceTree = "<group>"; };
+		663535591E6AB9D400B537D5 /* ViewController12.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController12.m; sourceTree = "<group>"; };
+		6635355B1E6ABC0B00B537D5 /* ViewController13.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController13.h; sourceTree = "<group>"; };
+		6635355C1E6ABC0B00B537D5 /* ViewController13.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController13.m; sourceTree = "<group>"; };
+		6635355E1E6ABCF000B537D5 /* ViewController14.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController14.h; sourceTree = "<group>"; };
+		6635355F1E6ABCF000B537D5 /* ViewController14.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController14.m; sourceTree = "<group>"; };
+		663535611E6ABD6C00B537D5 /* ViewController15.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController15.h; sourceTree = "<group>"; };
+		663535621E6ABD6C00B537D5 /* ViewController15.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController15.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		663534F31E6A98EE00B537D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6635350C1E6A98EE00B537D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		663535171E6A98EE00B537D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		663534ED1E6A98EE00B537D5 = {
+			isa = PBXGroup;
+			children = (
+				663535321E6A9C7500B537D5 /* photo.png */,
+				663534F81E6A98EE00B537D5 /* Amition */,
+				663535121E6A98EE00B537D5 /* AmitionTests */,
+				6635351D1E6A98EE00B537D5 /* AmitionUITests */,
+				663534F71E6A98EE00B537D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		663534F71E6A98EE00B537D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				663534F61E6A98EE00B537D5 /* Amition.app */,
+				6635350F1E6A98EE00B537D5 /* AmitionTests.xctest */,
+				6635351A1E6A98EE00B537D5 /* AmitionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		663534F81E6A98EE00B537D5 /* Amition */ = {
+			isa = PBXGroup;
+			children = (
+				663534FC1E6A98EE00B537D5 /* AppDelegate.h */,
+				663534FD1E6A98EE00B537D5 /* AppDelegate.m */,
+				663534FF1E6A98EE00B537D5 /* ViewController.h */,
+				663535001E6A98EE00B537D5 /* ViewController.m */,
+				6635352C1E6A995100B537D5 /* BaseViewController.h */,
+				6635352D1E6A995100B537D5 /* BaseViewController.m */,
+				6635352F1E6A9AC100B537D5 /* ViewController1.h */,
+				663535301E6A9AC100B537D5 /* ViewController1.m */,
+				663535341E6A9CE600B537D5 /* ViewController2.h */,
+				663535351E6A9CE600B537D5 /* ViewController2.m */,
+				663535371E6AA49400B537D5 /* ViewController3.h */,
+				663535381E6AA49400B537D5 /* ViewController3.m */,
+				6635353A1E6AB1C700B537D5 /* ViewController4.h */,
+				6635353B1E6AB1C700B537D5 /* ViewController4.m */,
+				6635353D1E6AB2B700B537D5 /* ViewController5.h */,
+				6635353E1E6AB2B700B537D5 /* ViewController5.m */,
+				663535401E6AB3D800B537D5 /* ViewController6.h */,
+				663535411E6AB3D800B537D5 /* ViewController6.m */,
+				663535431E6AB4BB00B537D5 /* ViewController7.h */,
+				663535441E6AB4BB00B537D5 /* ViewController7.m */,
+				663535461E6AB55700B537D5 /* ViewController8.h */,
+				663535471E6AB55700B537D5 /* ViewController8.m */,
+				663535491E6AB67C00B537D5 /* ViewController9.h */,
+				6635354A1E6AB67C00B537D5 /* ViewController9.m */,
+				663535521E6AB8E400B537D5 /* ViewController10.h */,
+				663535531E6AB8E400B537D5 /* ViewController10.m */,
+				663535581E6AB9D400B537D5 /* ViewController12.h */,
+				663535591E6AB9D400B537D5 /* ViewController12.m */,
+				6635354F1E6AB89200B537D5 /* ViewController11.h */,
+				663535501E6AB89200B537D5 /* ViewController11.m */,
+				6635355B1E6ABC0B00B537D5 /* ViewController13.h */,
+				6635355C1E6ABC0B00B537D5 /* ViewController13.m */,
+				6635355E1E6ABCF000B537D5 /* ViewController14.h */,
+				6635355F1E6ABCF000B537D5 /* ViewController14.m */,
+				663535611E6ABD6C00B537D5 /* ViewController15.h */,
+				663535621E6ABD6C00B537D5 /* ViewController15.m */,
+				663535021E6A98EE00B537D5 /* Main.storyboard */,
+				663535051E6A98EE00B537D5 /* Assets.xcassets */,
+				663535071E6A98EE00B537D5 /* LaunchScreen.storyboard */,
+				6635350A1E6A98EE00B537D5 /* Info.plist */,
+				663534F91E6A98EE00B537D5 /* Supporting Files */,
+			);
+			path = Amition;
+			sourceTree = "<group>";
+		};
+		663534F91E6A98EE00B537D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				663534FA1E6A98EE00B537D5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		663535121E6A98EE00B537D5 /* AmitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				663535131E6A98EE00B537D5 /* AmitionTests.m */,
+				663535151E6A98EE00B537D5 /* Info.plist */,
+			);
+			path = AmitionTests;
+			sourceTree = "<group>";
+		};
+		6635351D1E6A98EE00B537D5 /* AmitionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6635351E1E6A98EE00B537D5 /* AmitionUITests.m */,
+				663535201E6A98EE00B537D5 /* Info.plist */,
+			);
+			path = AmitionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		663534F51E6A98EE00B537D5 /* Amition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 663535231E6A98EE00B537D5 /* Build configuration list for PBXNativeTarget "Amition" */;
+			buildPhases = (
+				663534F21E6A98EE00B537D5 /* Sources */,
+				663534F31E6A98EE00B537D5 /* Frameworks */,
+				663534F41E6A98EE00B537D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Amition;
+			productName = Amition;
+			productReference = 663534F61E6A98EE00B537D5 /* Amition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6635350E1E6A98EE00B537D5 /* AmitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 663535261E6A98EE00B537D5 /* Build configuration list for PBXNativeTarget "AmitionTests" */;
+			buildPhases = (
+				6635350B1E6A98EE00B537D5 /* Sources */,
+				6635350C1E6A98EE00B537D5 /* Frameworks */,
+				6635350D1E6A98EE00B537D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				663535111E6A98EE00B537D5 /* PBXTargetDependency */,
+			);
+			name = AmitionTests;
+			productName = AmitionTests;
+			productReference = 6635350F1E6A98EE00B537D5 /* AmitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		663535191E6A98EE00B537D5 /* AmitionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 663535291E6A98EE00B537D5 /* Build configuration list for PBXNativeTarget "AmitionUITests" */;
+			buildPhases = (
+				663535161E6A98EE00B537D5 /* Sources */,
+				663535171E6A98EE00B537D5 /* Frameworks */,
+				663535181E6A98EE00B537D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6635351C1E6A98EE00B537D5 /* PBXTargetDependency */,
+			);
+			name = AmitionUITests;
+			productName = AmitionUITests;
+			productReference = 6635351A1E6A98EE00B537D5 /* AmitionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		663534EE1E6A98EE00B537D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "余浩";
+				TargetAttributes = {
+					663534F51E6A98EE00B537D5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					6635350E1E6A98EE00B537D5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 663534F51E6A98EE00B537D5;
+					};
+					663535191E6A98EE00B537D5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 663534F51E6A98EE00B537D5;
+					};
+				};
+			};
+			buildConfigurationList = 663534F11E6A98EE00B537D5 /* Build configuration list for PBXProject "Amition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 663534ED1E6A98EE00B537D5;
+			productRefGroup = 663534F71E6A98EE00B537D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				663534F51E6A98EE00B537D5 /* Amition */,
+				6635350E1E6A98EE00B537D5 /* AmitionTests */,
+				663535191E6A98EE00B537D5 /* AmitionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		663534F41E6A98EE00B537D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				663535091E6A98EE00B537D5 /* LaunchScreen.storyboard in Resources */,
+				663535331E6A9C7500B537D5 /* photo.png in Resources */,
+				663535061E6A98EE00B537D5 /* Assets.xcassets in Resources */,
+				663535041E6A98EE00B537D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6635350D1E6A98EE00B537D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		663535181E6A98EE00B537D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		663534F21E6A98EE00B537D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				663535541E6AB8E400B537D5 /* ViewController10.m in Sources */,
+				6635354B1E6AB67C00B537D5 /* ViewController9.m in Sources */,
+				663535311E6A9AC100B537D5 /* ViewController1.m in Sources */,
+				663535011E6A98EE00B537D5 /* ViewController.m in Sources */,
+				6635352E1E6A995100B537D5 /* BaseViewController.m in Sources */,
+				663535601E6ABCF000B537D5 /* ViewController14.m in Sources */,
+				663534FE1E6A98EE00B537D5 /* AppDelegate.m in Sources */,
+				663535511E6AB89200B537D5 /* ViewController11.m in Sources */,
+				663534FB1E6A98EE00B537D5 /* main.m in Sources */,
+				663535631E6ABD6C00B537D5 /* ViewController15.m in Sources */,
+				6635355D1E6ABC0B00B537D5 /* ViewController13.m in Sources */,
+				663535451E6AB4BB00B537D5 /* ViewController7.m in Sources */,
+				663535421E6AB3D800B537D5 /* ViewController6.m in Sources */,
+				6635353F1E6AB2B700B537D5 /* ViewController5.m in Sources */,
+				663535361E6A9CE600B537D5 /* ViewController2.m in Sources */,
+				663535391E6AA49400B537D5 /* ViewController3.m in Sources */,
+				6635353C1E6AB1C700B537D5 /* ViewController4.m in Sources */,
+				663535481E6AB55700B537D5 /* ViewController8.m in Sources */,
+				6635355A1E6AB9D400B537D5 /* ViewController12.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6635350B1E6A98EE00B537D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				663535141E6A98EE00B537D5 /* AmitionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		663535161E6A98EE00B537D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6635351F1E6A98EE00B537D5 /* AmitionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		663535111E6A98EE00B537D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 663534F51E6A98EE00B537D5 /* Amition */;
+			targetProxy = 663535101E6A98EE00B537D5 /* PBXContainerItemProxy */;
+		};
+		6635351C1E6A98EE00B537D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 663534F51E6A98EE00B537D5 /* Amition */;
+			targetProxy = 6635351B1E6A98EE00B537D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		663535021E6A98EE00B537D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				663535031E6A98EE00B537D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		663535071E6A98EE00B537D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				663535081E6A98EE00B537D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		663535211E6A98EE00B537D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		663535221E6A98EE00B537D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		663535241E6A98EE00B537D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Amition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1234.Amition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		663535251E6A98EE00B537D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Amition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1234.Amition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		663535271E6A98EE00B537D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AmitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1234.AmitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amition.app/Amition";
+			};
+			name = Debug;
+		};
+		663535281E6A98EE00B537D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AmitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1234.AmitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amition.app/Amition";
+			};
+			name = Release;
+		};
+		6635352A1E6A98EE00B537D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AmitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1234.AmitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Amition;
+			};
+			name = Debug;
+		};
+		6635352B1E6A98EE00B537D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AmitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1234.AmitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Amition;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		663534F11E6A98EE00B537D5 /* Build configuration list for PBXProject "Amition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				663535211E6A98EE00B537D5 /* Debug */,
+				663535221E6A98EE00B537D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		663535231E6A98EE00B537D5 /* Build configuration list for PBXNativeTarget "Amition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				663535241E6A98EE00B537D5 /* Debug */,
+				663535251E6A98EE00B537D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		663535261E6A98EE00B537D5 /* Build configuration list for PBXNativeTarget "AmitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				663535271E6A98EE00B537D5 /* Debug */,
+				663535281E6A98EE00B537D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		663535291E6A98EE00B537D5 /* Build configuration list for PBXNativeTarget "AmitionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6635352A1E6A98EE00B537D5 /* Debug */,
+				6635352B1E6A98EE00B537D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 663534EE1E6A98EE00B537D5 /* Project object */;
+}
