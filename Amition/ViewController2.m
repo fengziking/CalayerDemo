@@ -10,7 +10,9 @@
 #import "ViewController3.h"
 
 #define PHOTO_HEIGHT 150
-@interface ViewController2 ()
+@interface ViewController2 ()<CALayerDelegate>{
+    CALayer *layer;
+}
 
 @end
 
@@ -41,7 +43,7 @@
     [self.view.layer addSublayer:layerShadow];
     
     //容器图层
-    CALayer *layer=[[CALayer alloc]init];
+    layer=[[CALayer alloc]init];
     layer.bounds=bounds;
     layer.position=position;
     layer.backgroundColor=[UIColor redColor].CGColor;
@@ -49,6 +51,11 @@
     layer.masksToBounds=YES;
     layer.borderColor=[UIColor whiteColor].CGColor;
     layer.borderWidth=borderWidth;
+    
+//    //设置内容（注意这里一定要转换为CGImage）
+//    UIImage *image=[UIImage imageNamed:@"photo"];//仅设置一张图片设置layer.contents即可用不着代理形变
+//    //    layer.contents=(id)image.CGImage;
+//    [layer setContents:(id)image.CGImage];
     
     //设置图层代理
     layer.delegate=self;
@@ -59,10 +66,12 @@
     //调用图层setNeedDisplay,否则代理方法不会被调用
     [layer setNeedsDisplay];
 }
-
+-(void)dealloc {
+    layer.delegate = nil;
+}
 #pragma mark 绘制图形、图像到图层，注意参数中的ctx是图层的图形上下文，其中绘图位置也是相对图层而言的
 -(void)drawLayer:(CALayer *)layer inContext:(CGContextRef)ctx{
-    //    NSLog(@"%@",layer);//这个图层正是上面定义的图层
+    //    NSLog(@"%@",layer);//这个图层正是上面定义的图层入栈操作
     CGContextSaveGState(ctx);
     
     //图形上下文形变，解决图片倒立的问题
@@ -76,7 +85,7 @@
     //    CGContextFillRect(ctx, CGRectMake(0, 0, 100, 100));
     //    CGContextDrawPath(ctx, kCGPathFillStroke);
     
-    CGContextRestoreGState(ctx);
+    CGContextRestoreGState(ctx);//出栈
 }
 
 - (void)didReceiveMemoryWarning {

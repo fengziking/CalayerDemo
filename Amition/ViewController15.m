@@ -8,6 +8,8 @@
 //
 
 #import "ViewController15.h"
+#import "ViewController16.h"
+
 #define IMAGE_COUNT 5
 @interface ViewController15 (){
     
@@ -19,14 +21,20 @@
 @end
 
 @implementation ViewController15
+-(void)clickBack
 
+{
+    ViewController16 *vc = [[ViewController16 alloc]init];
+    vc.title = @"16";
+    [self.navigationController pushViewController:vc animated:YES];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     //定义图片控件
     _imageView=[[UIImageView alloc]init];
     _imageView.frame=[UIScreen mainScreen].applicationFrame;
     _imageView.contentMode=UIViewContentModeScaleAspectFit;
-    _imageView.image=[UIImage imageNamed:@"photo"];//默认图片
+    _imageView.image=[UIImage imageNamed:@"hua"];//默认图片
     [self.view addSubview:_imageView];
     //添加手势
     UISwipeGestureRecognizer *leftSwipeGesture=[[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(leftSwipe:)];
@@ -71,7 +79,7 @@
         _currentIndex=(_currentIndex-1+IMAGE_COUNT)%IMAGE_COUNT;
     }
 //    NSString *imageName=[NSString stringWithFormat:@"%i.jpg",_currentIndex];
-    NSString *imageName=[NSString stringWithFormat:@"photo"];
+    NSString *imageName=[NSString stringWithFormat:@"hua"];
 
     return [UIImage imageNamed:imageName];
 }

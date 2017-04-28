@@ -32,7 +32,7 @@
     self.view.backgroundColor=[UIColor colorWithPatternImage:backgroundImage];
     
     //创建图像显示控件
-    _imageView=[[UIImageView alloc]initWithImage:[UIImage imageNamed:@"photo"]];
+    _imageView=[[UIImageView alloc]initWithImage:[UIImage imageNamed:@"hua"]];
     _imageView.center=CGPointMake(50, 150);
     [self.view addSubview:_imageView];
 

@@ -9,7 +9,7 @@
 #import "ViewController5.h"
 #import "ViewController6.h"
 
-@interface ViewController5 (){
+@interface ViewController5 ()<CAAnimationDelegate>{
     
         CALayer *_layer;
 }
@@ -33,7 +33,7 @@
     _layer=[[CALayer alloc]init];
     _layer.bounds=CGRectMake(0, 0, 10, 20);
     _layer.position=CGPointMake(50, 150);
-    _layer.contents=(id)[UIImage imageNamed:@"photo"].CGImage;
+    _layer.contents=(id)[UIImage imageNamed:@"hua"].CGImage;
     [self.view.layer addSublayer:_layer];
 }
 

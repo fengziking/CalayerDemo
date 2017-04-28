@@ -86,7 +86,7 @@
     }else{
         _currentIndex=(_currentIndex-1+IMAGE_COUNT)%IMAGE_COUNT;
     }
-    NSString *imageName=[NSString stringWithFormat:@"photo"];
+    NSString *imageName=[NSString stringWithFormat:@"hua"];
     return [UIImage imageNamed:imageName];
 }
 

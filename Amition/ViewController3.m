@@ -11,7 +11,9 @@
 
 #define PHOTO_HEIGHT 150
 
-@interface ViewController3 ()
+@interface ViewController3 ()<CALayerDelegate>{
+    CALayer *layer;
+}
 
 @end
 
@@ -42,7 +44,7 @@
     [self.view.layer addSublayer:layerShadow];
     
     //容器图层
-    CALayer *layer=[[CALayer alloc]init];
+    layer=[[CALayer alloc]init];
     layer.bounds=bounds;
     layer.position=position;
     layer.backgroundColor=[UIColor redColor].CGColor;
@@ -52,8 +54,10 @@
     layer.borderWidth=borderWidth;
     
     //利用图层形变解决图像倒立问题
-    layer.transform=CATransform3DMakeRotation(M_PI, 1, 0, 0);
+   // layer.transform=CATransform3DMakeRotation(M_PI, 1, 0, 0);
     
+    //通过keyPath进行设置 只是利用了KVC可以动态修改其属性值而已
+    [layer setValue:@M_PI forKeyPath:@"transform.rotation.x"];
     //设置图层代理
     layer.delegate=self;
     
@@ -62,6 +66,10 @@
     
     //调用图层setNeedDisplay,否则代理方法不会被调用
     [layer setNeedsDisplay];
+}
+-(void)dealloc {
+    
+    layer.delegate = nil;
 }
 #pragma mark 绘制图形、图像到图层，注意参数中的ctx时图层的图形上下文，其中绘图位置也是相对图层而言的
 -(void)drawLayer:(CALayer *)layer inContext:(CGContextRef)ctx{

@@ -16,6 +16,14 @@
 
 @implementation ViewController
 
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -36,9 +44,8 @@
     [leftView addSubview:btn];
     // btn.x = 5;
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:leftView];;
-    [self drawMyLayer];
 
-    NSLog(@"改点代码看看");
+    [self drawMyLayer];
 
 }
 
@@ -48,6 +55,8 @@
     vc.title = @"1";
     [self.navigationController pushViewController:vc animated:YES];
 }
+
+
 #pragma mark 绘制图层
 -(void)drawMyLayer{
     CGSize size=[UIScreen mainScreen].bounds.size;
@@ -91,10 +100,11 @@
     layer.position=[touch locationInView:self.view];
     layer.cornerRadius=width/2;
 }
-
+//当系统的内存不足时，UIViewController的didReceiveMemoryWarining 方法会被调用
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+    if([self isViewLoaded] && ![[self view] window]) {
+        [self setView:nil];
+    }}
 
 @end

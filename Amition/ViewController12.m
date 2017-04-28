@@ -41,7 +41,7 @@
     //与其在循环中不断创建UIImage不如直接将10张图片缓存起来
     _images=[NSMutableArray array];
     for (int i=0; i<10; ++i) {
-        NSString *imageName=[NSString stringWithFormat:@"photo"];
+        NSString *imageName=[NSString stringWithFormat:@"hua"];
         UIImage *image=[UIImage imageNamed:imageName];
         [_images addObject:image];
     }
@@ -58,7 +58,7 @@
     static int s=0;
     //每秒执行6次
     if (++s%10==0) {
-        NSString *imageName=[NSString stringWithFormat:@"photo"];
+        NSString *imageName=[NSString stringWithFormat:@"hua"];
 //        UIImage *image=_images[_index];
         UIImage *image=[UIImage imageNamed:imageName];
 
@@ -66,7 +66,32 @@
         _index=(_index+1)%IMAGE_COUNT;
     }
 }
+#pragma mark 移动动画
+-(void)translatonAnimation:(CGPoint)location{
+    //1.创建动画并指定动画属性
+    CABasicAnimation *basicAnimation=[CABasicAnimation animationWithKeyPath:@"position"];
+    
+    //2.设置动画属性初始值和结束值
+    //    basicAnimation.fromValue=[NSNumber numberWithInteger:50];//可以不设置，默认为图层初始状态
+    basicAnimation.toValue=[NSValue valueWithCGPoint:location];
+    
+    //设置其他动画属性
+    basicAnimation.duration=5.0;//动画时间5秒
+    //basicAnimation.repeatCount=HUGE_VALF;//设置重复次数,HUGE_VALF可看做无穷大，起到循环动画的效果
+    //    basicAnimation.removedOnCompletion=NO;//运行一次是否移除动画
+    
+    
+    //3.添加动画到图层，注意key相当于给动画进行命名，以后获得该动画时可以使用此名称获取
+    [_layer addAnimation:basicAnimation forKey:@"KCBasicAnimation_Translation"];
+}
 
+#pragma mark 点击事件
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    UITouch *touch=touches.anyObject;
+    CGPoint location= [touch locationInView:self.view];
+    //创建并开始动画
+    [self translatonAnimation:location];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

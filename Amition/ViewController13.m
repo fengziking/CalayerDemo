@@ -27,7 +27,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     //创建图像显示控件
-    _imageView=[[UIImageView alloc]initWithImage:[UIImage imageNamed:@"photo"]];
+    _imageView=[[UIImageView alloc]initWithImage:[UIImage imageNamed:@"hua"]];
     _imageView.center=CGPointMake(160, 50);
     [self.view addSubview:_imageView];
 

@@ -17,7 +17,6 @@
 		6635351F1E6A98EE00B537D5 /* AmitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6635351E1E6A98EE00B537D5 /* AmitionUITests.m */; };
 		6635352E1E6A995100B537D5 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6635352D1E6A995100B537D5 /* BaseViewController.m */; };
 		663535311E6A9AC100B537D5 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 663535301E6A9AC100B537D5 /* ViewController1.m */; };
-		663535331E6A9C7500B537D5 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 663535321E6A9C7500B537D5 /* photo.png */; };
 		663535361E6A9CE600B537D5 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 663535351E6A9CE600B537D5 /* ViewController2.m */; };
 		663535391E6AA49400B537D5 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 663535381E6AA49400B537D5 /* ViewController3.m */; };
 		6635353C1E6AB1C700B537D5 /* ViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 6635353B1E6AB1C700B537D5 /* ViewController4.m */; };
@@ -32,6 +31,10 @@
 		6635355D1E6ABC0B00B537D5 /* ViewController13.m in Sources */ = {isa = PBXBuildFile; fileRef = 6635355C1E6ABC0B00B537D5 /* ViewController13.m */; };
 		663535601E6ABCF000B537D5 /* ViewController14.m in Sources */ = {isa = PBXBuildFile; fileRef = 6635355F1E6ABCF000B537D5 /* ViewController14.m */; };
 		663535631E6ABD6C00B537D5 /* ViewController15.m in Sources */ = {isa = PBXBuildFile; fileRef = 663535621E6ABD6C00B537D5 /* ViewController15.m */; };
+		CC4B50D91E8F4F98005175AD /* hua.png in Resources */ = {isa = PBXBuildFile; fileRef = CC4B50D81E8F4F98005175AD /* hua.png */; };
+		CC5236841EA881A300FFFB42 /* ViewController16.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5236831EA881A300FFFB42 /* ViewController16.m */; };
+		CC5236871EA8853D00FFFB42 /* ViewController17.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5236861EA8853D00FFFB42 /* ViewController17.m */; };
+		CC58448A1E8A3DA400F451C6 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = CC5844891E8A3DA400F451C6 /* photo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,7 +75,6 @@
 		6635352D1E6A995100B537D5 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		6635352F1E6A9AC100B537D5 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
 		663535301E6A9AC100B537D5 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
-		663535321E6A9C7500B537D5 /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
 		663535341E6A9CE600B537D5 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
 		663535351E6A9CE600B537D5 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		663535371E6AA49400B537D5 /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
@@ -101,6 +103,12 @@
 		6635355F1E6ABCF000B537D5 /* ViewController14.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController14.m; sourceTree = "<group>"; };
 		663535611E6ABD6C00B537D5 /* ViewController15.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController15.h; sourceTree = "<group>"; };
 		663535621E6ABD6C00B537D5 /* ViewController15.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController15.m; sourceTree = "<group>"; };
+		CC4B50D81E8F4F98005175AD /* hua.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hua.png; sourceTree = "<group>"; };
+		CC5236821EA881A300FFFB42 /* ViewController16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController16.h; sourceTree = "<group>"; };
+		CC5236831EA881A300FFFB42 /* ViewController16.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController16.m; sourceTree = "<group>"; };
+		CC5236851EA8853D00FFFB42 /* ViewController17.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController17.h; sourceTree = "<group>"; };
+		CC5236861EA8853D00FFFB42 /* ViewController17.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController17.m; sourceTree = "<group>"; };
+		CC5844891E8A3DA400F451C6 /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +139,8 @@
 		663534ED1E6A98EE00B537D5 = {
 			isa = PBXGroup;
 			children = (
-				663535321E6A9C7500B537D5 /* photo.png */,
+				CC4B50D81E8F4F98005175AD /* hua.png */,
+				CC5844891E8A3DA400F451C6 /* photo.png */,
 				663534F81E6A98EE00B537D5 /* Amition */,
 				663535121E6A98EE00B537D5 /* AmitionTests */,
 				6635351D1E6A98EE00B537D5 /* AmitionUITests */,
@@ -152,12 +161,12 @@
 		663534F81E6A98EE00B537D5 /* Amition */ = {
 			isa = PBXGroup;
 			children = (
+				6635352C1E6A995100B537D5 /* BaseViewController.h */,
+				6635352D1E6A995100B537D5 /* BaseViewController.m */,
 				663534FC1E6A98EE00B537D5 /* AppDelegate.h */,
 				663534FD1E6A98EE00B537D5 /* AppDelegate.m */,
 				663534FF1E6A98EE00B537D5 /* ViewController.h */,
 				663535001E6A98EE00B537D5 /* ViewController.m */,
-				6635352C1E6A995100B537D5 /* BaseViewController.h */,
-				6635352D1E6A995100B537D5 /* BaseViewController.m */,
 				6635352F1E6A9AC100B537D5 /* ViewController1.h */,
 				663535301E6A9AC100B537D5 /* ViewController1.m */,
 				663535341E6A9CE600B537D5 /* ViewController2.h */,
@@ -188,6 +197,10 @@
 				6635355F1E6ABCF000B537D5 /* ViewController14.m */,
 				663535611E6ABD6C00B537D5 /* ViewController15.h */,
 				663535621E6ABD6C00B537D5 /* ViewController15.m */,
+				CC5236821EA881A300FFFB42 /* ViewController16.h */,
+				CC5236831EA881A300FFFB42 /* ViewController16.m */,
+				CC5236851EA8853D00FFFB42 /* ViewController17.h */,
+				CC5236861EA8853D00FFFB42 /* ViewController17.m */,
 				663535021E6A98EE00B537D5 /* Main.storyboard */,
 				663535051E6A98EE00B537D5 /* Assets.xcassets */,
 				663535071E6A98EE00B537D5 /* LaunchScreen.storyboard */,
@@ -290,9 +303,11 @@
 				TargetAttributes = {
 					663534F51E6A98EE00B537D5 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7C5PP2YMG3;
 					};
 					6635350E1E6A98EE00B537D5 = {
 						CreatedOnToolsVersion = 7.3.1;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 663534F51E6A98EE00B537D5;
 					};
 					663535191E6A98EE00B537D5 = {
@@ -327,9 +342,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				663535091E6A98EE00B537D5 /* LaunchScreen.storyboard in Resources */,
-				663535331E6A9C7500B537D5 /* photo.png in Resources */,
 				663535061E6A98EE00B537D5 /* Assets.xcassets in Resources */,
+				CC58448A1E8A3DA400F451C6 /* photo.png in Resources */,
 				663535041E6A98EE00B537D5 /* Main.storyboard in Resources */,
+				CC4B50D91E8F4F98005175AD /* hua.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +375,7 @@
 				663535311E6A9AC100B537D5 /* ViewController1.m in Sources */,
 				663535011E6A98EE00B537D5 /* ViewController.m in Sources */,
 				6635352E1E6A995100B537D5 /* BaseViewController.m in Sources */,
+				CC5236871EA8853D00FFFB42 /* ViewController17.m in Sources */,
 				663535601E6ABCF000B537D5 /* ViewController14.m in Sources */,
 				663534FE1E6A98EE00B537D5 /* AppDelegate.m in Sources */,
 				663535511E6AB89200B537D5 /* ViewController11.m in Sources */,
@@ -369,6 +386,7 @@
 				663535421E6AB3D800B537D5 /* ViewController6.m in Sources */,
 				6635353F1E6AB2B700B537D5 /* ViewController5.m in Sources */,
 				663535361E6A9CE600B537D5 /* ViewController2.m in Sources */,
+				CC5236841EA881A300FFFB42 /* ViewController16.m in Sources */,
 				663535391E6AA49400B537D5 /* ViewController3.m in Sources */,
 				6635353C1E6AB1C700B537D5 /* ViewController4.m in Sources */,
 				663535481E6AB55700B537D5 /* ViewController8.m in Sources */,
@@ -513,6 +531,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7C5PP2YMG3;
 				INFOPLIST_FILE = Amition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.1234.Amition;
@@ -524,6 +543,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7C5PP2YMG3;
 				INFOPLIST_FILE = Amition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.1234.Amition;
@@ -535,6 +555,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AmitionTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.1234.AmitionTests;
@@ -547,6 +569,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AmitionTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.1234.AmitionTests;
@@ -558,6 +582,7 @@
 		6635352A1E6A98EE00B537D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AmitionUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.1234.AmitionUITests;
@@ -569,6 +594,7 @@
 		6635352B1E6A98EE00B537D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AmitionUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.1234.AmitionUITests;

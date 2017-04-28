@@ -32,7 +32,7 @@
     _layer=[[CALayer alloc]init];
     _layer.bounds=CGRectMake(0, 0, 10, 20);
     _layer.position=CGPointMake(50, 150);
-    _layer.contents=(id)[UIImage imageNamed:@"photo"].CGImage;
+    _layer.contents=(id)[UIImage imageNamed:@"hua"].CGImage;
     [self.view.layer addSublayer:_layer];
     
     //创建动画
@@ -52,7 +52,7 @@
     NSArray *values=@[key1,key2,key3,key4];
     keyframeAnimation.values=values;
     //设置其他属性
-    keyframeAnimation.duration=8.0;
+    keyframeAnimation.duration=8.0;//持续时间
     keyframeAnimation.beginTime=CACurrentMediaTime()+2;//设置延迟2秒执行
     
     
